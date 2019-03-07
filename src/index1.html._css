@@ -1,0 +1,105 @@
+
+.st0{fill:#FEF9F6;}
+	.st1{fill:#FCEAE0;}
+	.st2{fill:#FBD9CD;}
+	.st3{fill:#F1AA98;}
+	.st4{fill:none;stroke:#232428;stroke-width:2.239;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#232428;stroke-width:2;stroke-miterlimit:10;}
+	.st6{fill:#2F3535;}
+	.st7{fill:#F4D7C9;}
+	.st8{fill:#212322;}
+	.st9{fill:#CCBFAF;}
+	.st10{fill:#280E11;}
+	.st11{fill:#FFE7CF;}
+	.st12{fill:#C92824;}
+	.st13{fill:#E55438;}
+	.st14{fill:#FCE9DB;}
+	.st15{fill:#DEAA82;}
+	.st16{fill:#DA4139;}
+	.st17{fill:#EF6443;}
+	.st18{fill:#F6C8AE;}
+	.st19{fill:#FEE6CE;}
+	.st20{display:none;}
+	.st21{display:inline;fill:#47FCAA;}
+
+
+
+
+/******************以上为Ai导出时生成的部分**************************/
+
+
+/**************腿部动画*************/
+@keyframes legLMove{
+0% {transform: rotate(0deg)}
+100% {transform: rotate(-60deg)}
+}
+
+#legL{
+animation: legLMove 1s   infinite  alternate;
+transform-origin:455px 235px;
+}
+
+
+@keyframes calfLMove{
+0% {transform: rotate(0deg)}
+100% {transform: rotate(100deg)}
+
+}
+
+#calfL{
+animation: calfLMove 1s   infinite alternate;
+transform-origin:343px 220px;
+}
+
+
+
+@keyframes legRMove{
+0% {transform: rotate(0deg)}
+100% {transform: rotate(60deg)}
+
+}
+
+#legR{
+animation: legRMove 1s  infinite alternate;
+transform-origin:455px 235px;
+}
+
+
+@keyframes calfRMove{
+0% {transform: rotate(0deg)}
+100% {transform: rotate(-100deg)}
+
+}
+
+#calfR{
+animation: calfRMove 1s  infinite alternate;
+transform-origin:381px 341px;
+}
+
+
+/**************音符动画*************/
+@keyframes notePath{
+0% {
+	offset-distance:0%;
+    transform:scale(0.2);
+}
+100% {
+	offset-distance:100%;
+    transform:scale(1.2);
+}
+}
+
+@keyframes noteOpacity{
+	50%{opacity:1}
+	100%{opacity:0.1}
+}
+
+
+
+/*这里通过定义两个动画规则给动画属性的方式，更加灵活一些，也可以统一定义在notePath的动画规则中*/
+#notePath{
+offset-path:path('M461.8,392.1c23.9-38.9,62.1-18.6,119.2-49.2C717,270.1,513,157,800,0');
+animation:notePath 2s ease infinite ,noteOpacity 2s linear infinite;
+}
+
+    

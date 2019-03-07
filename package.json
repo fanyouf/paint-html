@@ -1,0 +1,28 @@
+{
+  "name": "paint-html",
+  "version": "0.0.1",
+  "description": "loading css step",
+  "main": "index.js",
+  "bin": {
+    "paint-html": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanyoufu/paint-html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fanyoufu/paint-html/issues"
+  },
+  "homepage": "https://github.com/fanyoufu/paint-html#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.2"
+  }
+}

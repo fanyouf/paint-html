@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>愤怒的小鸟</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding:2em;
+        }
+        .title{margin-bottom:1em;}
+        .title h2{padding-bottom:0;margin-bottom: 0.5em;}
+        .loadingbar{
+            width: 100%;
+            height: 4px;
+            background-color: #ccc;
+            position: relative;
+        }
+        #loading{
+            position: absolute;
+            width: 0%;
+            bottom:0;
+            top:0;
+            left:0;
+            height: 4px;
+            background-color: red;
+        }
+        #wrapper{
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            /* height: 100%; */
+        }
+        .code-wrapper{
+            flex: 1 1 auto;
+            border:1px solid #ccc;
+            overflow: auto;
+            margin-right: 2em;
+        }
+        .code{padding:1em;}
+        .preview-wrapper{
+            flex:1 1 auto;
+            border:1px solid #ccc;
+            display: flex;
+        }
+        .preview-wrapper .preview{
+            margin: auto;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="./index.source.css"> -->
+    <style id="styleTag"></style>
+</head>
+
+<body>
+    <div class="title">
+        <h2>愤怒的小鸟</h2>
+        <div class="loadingbar"><div id="loading"></div></div>
+    </div>
+    <div id="wrapper">
+        <div class="code-wrapper" id="code-wrapper">
+            <pre class="code" id="cssCode">
+                <!-- css 代码将会出现在这里 -->
+            </pre>
+        </div>
+        <div class="preview-wrapper">
+            <div class="preview" id="preview">
+                    <!--designed by 泱泱-->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="808px"
+height="606px" viewBox="0 0 800 600" style="enable-background:new 0 0 800 600;width:100%;height:100%" xml:space="preserve">
+<g id="base">
+<rect class="st0" width="800" height="600"/>
+<polygon class="st1" points="800,600 0,600 0,151 800,285 	"/>
+<polygon class="st2" points="800,600 0,600 0,433 800,309 	"/>
+<polygon class="st3" points="0,600 0,399 667,600 	"/>
+<circle class="st4" cx="248.1" cy="370.1" r="100"/>
+<circle class="st4" cx="492.6" cy="442.2" r="100"/>
+<line class="st5" x1="248.1" y1="370.1" x2="542.3" y2="456.9"/>
+<line class="st5" x1="250.9" y1="362.5" x2="545.1" y2="449.3"/>
+<line class="st5" x1="253.7" y1="354.9" x2="547.8" y2="441.8"/>
+<line class="st5" x1="256.4" y1="347.3" x2="550.6" y2="434.2"/>
+<line class="st5" x1="258.8" y1="340.6" x2="553" y2="427.4"/>
+<line class="st5" x1="245.1" y1="378.6" x2="281.3" y2="275.9"/>
+<path class="st7" d="M390,185c0,3.5-113.6,69.9-118.6,69.1c-3.8,4.4,3.7,8.2,3.7,8.2S394.8,223.7,404,207
+   C409,193.8,390,181.5,390,185z"/>
+<path class="st8" d="M304.8,288.2l-49.2-24.1c-3.9-1.9-5.5-6.7-3.6-10.6v0c1.9-3.9,6.7-5.5,10.6-3.6l49.2,24.1
+   c3.9,1.9,5.5,6.7,3.6,10.6l0,0C313.5,288.5,308.8,290.1,304.8,288.2z"/>
+<g>
+   <path class="st9" d="M395,105.7c0,0-29,16.5-33.7,17.5c-0.4,0.1-0.7,0.1-1,0.1c0.9-0.6,16.5-10.8,13.4-29.2
+       c2.4-2.4,1.9-6.4-3.1-7.6l-26.4,1c-0.3-1.1-0.5-1.7-0.5-1.7l19.6-2.8h21.1c0,0,0.9,13.1,3.4,15.7C390.3,101.1,395,105.7,395,105.7
+       z"/>
+   <path class="st10" d="M343.4,86.9c0,0-3.2-32.6,35.1-26.2c18,4.2,12,11,27.9,8.7c2.3,3.2-19.4,35.4-23.6,34.9
+       c-1.3,0.2-9.4-12.3-9.4-12.3l-4.5-5.4L343.4,86.9z"/>
+   <path class="st11" d="M373.6,94.1c3.2,18.4-12.5,28.6-13.4,29.2h-0.1c-2.8-0.3-5-4.2-7.2-7.9c-1-1.6-2.1-3.2-3.2-4.4
+       c-4-4.2-5.8-3.4-4.5-9.7c1-4.6-0.4-10.9-1.1-13.8l26.4-1C375.5,87.7,376,91.7,373.6,94.1z"/>
+   <ellipse class="st10" cx="352" cy="92.1" rx="3.2" ry="1.3"/>
+</g>
+</g>
+<g id="legR">
+<path class="st12" d="M401.8,279.5c12.2-17.2,40.4-66.3,60.6-58.5c28.4,10.9,24.6,36.5-17.5,83.3S385,370.5,367,350.2
+   C355.3,337,390.5,295.3,401.8,279.5z"/>
+<g id="calfR">
+   <path class="st13" d="M396,369.6c0,0-9.8,61.4-37.8,95.1c-6.2,8-1.8,23.9-19.5,13c-12.6-7.8-25.3-15.8-24.1-17.3
+   c4.2-5.2,20.2,4.6,29.8-3.8c6.5-7.3,9.9-96.7,13.7-108.7c3.8-12,14.8-34.3,29.2-23C401.7,336,396,369.6,396,369.6z"/>
+<path class="st6" d="M378.6,456.2c-0.9-0.4-12.9,10-19.9,16.3c-0.1-6-5-10.9-11-11c-6.2-0.1-11.3,4.9-11.4,11.1
+   c-0.1,6.2,4.9,11.3,11.1,11.4c2.7,0,5.1-0.9,7.1-2.4l18.7-16.9c0,0,0,6.7-0.6,8.8c-0.7,2.5-4.8,9.1-4,9.7c0.5,0.4,6.1-5.6,7.1-8.5
+   C376.9,470.7,379.2,456.4,378.6,456.2z"/>
+</g>
+</g>
+
+<g id="base2">
+<path class="st14" d="M401.3,210.3c0,0-24.4-43.2-31.2-74.7S390.5,98,401.3,110s65.1,81.4,66.5,113.5
+   C462.6,224,401.3,210.3,401.3,210.3z"/>
+</g>
+<g id="legL">
+<path class="st16" d="M401.1,208.4c21,2.5,77.5,3.7,80.5,27.1c4.1,33-20,43-81.4,27.4s-86.9-22.3-77.8-50.4
+   C328.3,194.2,381.8,206,401.1,208.4z"/>
+
+<g id="calfL">
+<path class="st17" d="M384.4,236.1c0,0,33.3,57.4,24.8,100.8c-1.6,10.1,15.3,21.3-13.6,21.3c-20.7,0-41.6-0.2-41.2-2.1
+   c1.2-6.7,27.3-6.7,32.6-18.9c2.3-9.6-59-87.5-63.4-99.7c-4.4-12.2-7.6-36.9,17.7-34.9C366.6,204.6,384.4,236.1,384.4,236.1z"/>
+<path class="st6" d="M409.4,317.8c-1.1,0.6-0.9,20.3-0.6,32c-5.8-4.7-14.3-4-19.3,1.6c-5.1,5.8-4.5,14.6,1.3,19.7
+   c5.8,5.1,14.6,4.5,19.7-1.3c2.2-2.5,3.3-5.6,3.5-8.6l-0.9-31.3c0,0,6.3,5.4,7.9,7.7c1.8,2.7,4.8,11.8,6,11.6
+   c0.8-0.2-0.4-10.3-2.4-13.6C421.8,331.2,410.2,317.4,409.4,317.8z"/>
+</g>
+
+
+</g>
+
+<g id="base3">
+<path class="st2" d="M435.1,196.4c0,0,12.8-7.9,26.9-6.8c14.1,1.1,22.5,16.6,26.9,17.4c4.3,0.8,22.3-7.6,33.7-3.8
+   c11.4,3.8,12.5-4.7-11.1-26.8c-23.6-22.1-36.4-37.3-80.1-38.9S435.1,196.4,435.1,196.4z"/>
+<path class="st18" d="M294.8,286.2c0,0,0.7,3.5-3.9,1.8s-24.3-4.6-20-22.8c1.9-10.3,14.5-4.7,47.4-12.2c30.5-7,92.1-43.7,92.1-43.7
+   l-15.4-33.5L440,173c0,0,6,29,1.8,43.1c-4.2,14.1-30.1,39.3-73.2,44.7s-53.6,4.9-59.6,7.1c-6,2.2-19.6-9.6-27.2-1.1
+   C275.1,277.3,294.8,283.1,294.8,286.2z"/>
+<path class="st19" d="M400.2,187.1c-0.5,0-39.1-58.7-6.8-70.9c21.2-8.1,58.4,22.3,88.5,66.3C481.9,182.5,426.9,176.8,400.2,187.1z"
+   />
+</g>
+<g id="notePath">
+<path class="st6" d="M7.4-34.6c-1,0.5,0.2,17.5,1,27.5C3.2-10.9-4-9.9-8-4.8C-12.1,0.4-11.2,7.9-6,12c5.2,4.1,12.7,3.2,16.8-2
+   c1.8-2.2,2.6-4.9,2.6-7.6l-2.3-26.8c0,0,5.7,4.4,7.1,6.2c1.7,2.2,4.6,9.9,5.7,9.7c0.7-0.2-0.8-8.8-2.7-11.5
+   C18.7-23.7,8.1-34.9,7.4-34.6z"/>
+</g>
+
+</svg>
+            </div>
+        </div>
+    </div>
+
+<script>
+        function loadText(url){
+           return new Promise((resolve,reject)=>{
+                var xhr = new XMLHttpRequest();
+                xhr.onload = function () {   
+                    return resolve(xhr.responseText)  
+                };
+                try {
+                    xhr.open("get", url, true);
+                    xhr.send();
+                }
+                catch (ex) {
+                    console.error(ex.message);
+                    return resolve("")
+                    // reject(ex.message);
+                }   
+            })
+        }
+
+        
+
+        window.addEventListener("load",function(){
+            let htmlPreObj = document.getElementById("preview");
+            let codeWrapperObj = document.getElementById("code-wrapper");
+            let loadingObj = document.getElementById("loading")
+            let styleObj = document.getElementById("styleTag");
+            let cssCode = document.getElementById("cssCode")
+            let curIndex = 1;
+            let totalIndex = 0;
+            let timer = null;
+            let htmlurl = 'index1.html._html';
+            let cssurl = 'index1.html._css';
+            
+      
+            load()
+
+        
+            async function load(){
+
+                let htmlString = await loadText(htmlurl)
+                htmlPreObj.innerHTML = htmlString;
+
+                cssString =  await loadText(cssurl)
+                
+                console.dir(cssString)
+                if(cssString.length > 0){
+                    totalIndex = cssString.length;
+
+                    timer = setInterval(()=>{
+                        writeCss();
+                    })
+                }
+                
+            }
+
+            function writeCss(){
+                styleObj.innerHTML = cssString.substr(0,curIndex);
+                cssCode.innerHTML = styleObj.innerHTML
+                loadingObj.style.width = curIndex/totalIndex * 100 + "%"
+                codeWrapperObj.scroll(0,codeWrapperObj.scrollHeight)
+                curIndex +=2;
+                curIndex = Math.min(totalIndex,curIndex);
+
+                if(curIndex === totalIndex){
+                    clearInterval(timer);
+                }
+            }
+            
+        })
+            
+    </script></body></html>
